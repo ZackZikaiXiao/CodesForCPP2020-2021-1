@@ -10,15 +10,17 @@ class Set {
     vector<char> m_elems;
 public:
     Set() = default;
-    Set(const vector<char> &elem);
-    bool is_elem(char);
+    Set(const vector<char>& elem);
+    bool is_elem(char);     // 是否为集合元素
     void insert(char);
     void erase(char);
-    Set common(const Set &s);
-    Set sum(const Set &s);
-    Set& operator = (const Set &s);
-    Set(const Set &s);
-    friend ostream& operator<<(ostream &os, const Set &s);
+    Set common(const Set& s);
+    Set sum(const Set& s);
+    Set& operator = (const Set& s);
+    Set(const Set& s);
+    friend ostream& operator<<(ostream& os, const Set& s);
+private:
+    void selectionSort(vector<char>& arr);
 };
 
 
