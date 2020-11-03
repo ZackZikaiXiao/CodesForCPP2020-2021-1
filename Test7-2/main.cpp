@@ -18,5 +18,12 @@ int main() {
     cout << "s5\t" << s5 << endl;
     s5 = s4;
     cout << "s5\t" << s5 << endl;
+    cout << "s5 size:\t" << s5.size() << endl;
+    s3.swap(s5);
+    cout << "s3\t" << s3 << endl;
+    cout << "s5\t" << s5 << endl;
+    s3.clear();
+    cout << "s3\t" << s3 << endl;
+    cout << "Found 'a' in:\t" << s5.find('a') << endl;
     return 0;
 }

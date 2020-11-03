@@ -21,6 +21,10 @@ public:
     void erase(T);
     Set common(const Set& s);
     Set sum(const Set& s);
+    int find(const T item);
+    int size(){return this->m_elems.size();}
+    void clear(){vector<T>().swap(this->m_elems);}
+    void swap(Set& s){this->m_elems.swap(s.m_elems);}
     Set& operator = (const Set& s);
     Set(const Set& s);
     friend ostream& operator<< <T>(ostream& os, const Set<T>& s);
@@ -90,6 +94,15 @@ Set<T> Set<T>::sum(const Set<T>& s) {     // Step1:sort Step2:eliminate redundan
         else itr++;
     }
     return Set(tempArr);
+}
+
+template <typename T>
+int Set<T>::find(const T item) {        // -1: No element
+    for(int i = 0; i < this->m_elems.size(); i++) {
+       if(this->m_elems[i] == item) return i;
+    }
+    cout << "Element not found!" << endl;
+    return -1;
 }
 
 template <typename T>
