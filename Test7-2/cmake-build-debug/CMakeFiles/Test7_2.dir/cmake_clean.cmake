@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Test7_2.dir/Set.cpp.obj"
   "CMakeFiles/Test7_2.dir/main.cpp.obj"
   "Test7_2.exe"
   "Test7_2.exe.manifest"

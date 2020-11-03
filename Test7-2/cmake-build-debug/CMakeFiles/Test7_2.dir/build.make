@@ -80,38 +80,17 @@ CMakeFiles\Test7_2.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Test7_2.dir\main.cpp.s /c D:\Codes\CodesForCPP2020-2021-1\Test7-2\main.cpp
 <<
 
-CMakeFiles\Test7_2.dir\Set.cpp.obj: CMakeFiles\Test7_2.dir\flags.make
-CMakeFiles\Test7_2.dir\Set.cpp.obj: ..\Set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Codes\CodesForCPP2020-2021-1\Test7-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test7_2.dir/Set.cpp.obj"
-	D:\PROGRA~1\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Test7_2.dir\Set.cpp.obj /FdCMakeFiles\Test7_2.dir\ /FS -c D:\Codes\CodesForCPP2020-2021-1\Test7-2\Set.cpp
-<<
-
-CMakeFiles\Test7_2.dir\Set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test7_2.dir/Set.cpp.i"
-	D:\PROGRA~1\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe > CMakeFiles\Test7_2.dir\Set.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CodesForCPP2020-2021-1\Test7-2\Set.cpp
-<<
-
-CMakeFiles\Test7_2.dir\Set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test7_2.dir/Set.cpp.s"
-	D:\PROGRA~1\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Test7_2.dir\Set.cpp.s /c D:\Codes\CodesForCPP2020-2021-1\Test7-2\Set.cpp
-<<
-
 # Object files for target Test7_2
 Test7_2_OBJECTS = \
-"CMakeFiles\Test7_2.dir\main.cpp.obj" \
-"CMakeFiles\Test7_2.dir\Set.cpp.obj"
+"CMakeFiles\Test7_2.dir\main.cpp.obj"
 
 # External object files for target Test7_2
 Test7_2_EXTERNAL_OBJECTS =
 
 Test7_2.exe: CMakeFiles\Test7_2.dir\main.cpp.obj
-Test7_2.exe: CMakeFiles\Test7_2.dir\Set.cpp.obj
 Test7_2.exe: CMakeFiles\Test7_2.dir\build.make
 Test7_2.exe: CMakeFiles\Test7_2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\CodesForCPP2020-2021-1\Test7-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Test7_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Codes\CodesForCPP2020-2021-1\Test7-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Test7_2.exe"
 	"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Test7_2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- D:\PROGRA~1\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\Test7_2.dir\objects1.rsp @<<
  /out:Test7_2.exe /implib:Test7_2.lib /pdb:D:\Codes\CodesForCPP2020-2021-1\Test7-2\cmake-build-debug\Test7_2.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

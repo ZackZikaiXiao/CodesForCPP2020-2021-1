@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Codes/CodesForCPP2020-2021-1/Test7-2/Set.cpp" "D:/Codes/CodesForCPP2020-2021-1/Test7-2/cmake-build-debug/CMakeFiles/Test7_2.dir/Set.cpp.obj"
   "D:/Codes/CodesForCPP2020-2021-1/Test7-2/main.cpp" "D:/Codes/CodesForCPP2020-2021-1/Test7-2/cmake-build-debug/CMakeFiles/Test7_2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

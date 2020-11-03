@@ -127,33 +127,6 @@ Test7_2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test7_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test7_2.dir\build
 .PHONY : Test7_2\fast
 
-Set.obj: Set.cpp.obj
-
-.PHONY : Set.obj
-
-# target to build an object file
-Set.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test7_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test7_2.dir\Set.cpp.obj
-.PHONY : Set.cpp.obj
-
-Set.i: Set.cpp.i
-
-.PHONY : Set.i
-
-# target to preprocess a source file
-Set.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test7_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test7_2.dir\Set.cpp.i
-.PHONY : Set.cpp.i
-
-Set.s: Set.cpp.s
-
-.PHONY : Set.s
-
-# target to generate assembly for a file
-Set.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test7_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test7_2.dir\Set.cpp.s
-.PHONY : Set.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -190,9 +163,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Test7_2
-	@echo ... Set.obj
-	@echo ... Set.i
-	@echo ... Set.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
