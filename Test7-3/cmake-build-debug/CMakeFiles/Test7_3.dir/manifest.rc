@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Codes/CodesForCPP2020-2021-1/Test7-3/cmake-build-debug/CMakeFiles/Test7_3.dir/embed.manifest"

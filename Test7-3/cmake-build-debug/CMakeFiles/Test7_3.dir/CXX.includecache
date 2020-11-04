@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Codes/CodesForCPP2020-2021-1/Test7-3/MyVector.h
+iostream
+D:/Codes/CodesForCPP2020-2021-1/Test7-3/iostream
+
+D:/Codes/CodesForCPP2020-2021-1/Test7-3/main.cpp
+MyVector.h
+D:/Codes/CodesForCPP2020-2021-1/Test7-3/MyVector.h
+
