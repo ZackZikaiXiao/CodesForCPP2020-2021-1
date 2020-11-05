@@ -99,7 +99,7 @@ Set<T> Set<T>::sum(const Set<T>& s) {     // Step1:sort Step2:eliminate redundan
 template <typename T>
 int Set<T>::find(const T item) {        // -1: No element
     for(int i = 0; i < this->m_elems.size(); i++) {
-       if(this->m_elems[i] == item) return i;
+        if(this->m_elems[i] == item) return i;
     }
     cout << "Element not found!" << endl;
     return -1;
