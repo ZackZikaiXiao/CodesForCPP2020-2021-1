@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Codes/CodesForCPP2020-2021-1/Test7-2/Complex.h">
+			<Option target="Test7_2"/>
+		</Unit>
 		<Unit filename="D:/Codes/CodesForCPP2020-2021-1/Test7-2/Set.h">
 			<Option target="Test7_2"/>
 		</Unit>

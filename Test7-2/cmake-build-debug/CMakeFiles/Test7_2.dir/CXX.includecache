@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/Codes/CodesForCPP2020-2021-1/Test7-2/Complex.h
+iostream
+-
+
 D:/Codes/CodesForCPP2020-2021-1/Test7-2/Set.h
 iostream
 -
@@ -17,4 +21,6 @@ iostream
 -
 Set.h
 D:/Codes/CodesForCPP2020-2021-1/Test7-2/Set.h
+Complex.h
+D:/Codes/CodesForCPP2020-2021-1/Test7-2/Complex.h
 

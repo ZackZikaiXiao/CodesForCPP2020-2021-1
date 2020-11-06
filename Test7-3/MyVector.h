@@ -46,7 +46,7 @@ MyVector<T>::MyVector(T* arr, int len) :m_elems(new T[len * 2]), m_max(len * 2),
 template <typename T>
 MyVector<T>::MyVector(MyVector& myVector) :m_elems(new T[myVector.m_max]), m_max(myVector.m_max), m_size(myVector.m_size) {    // 拷贝构造函数
     for (int i = 0; i < myVector.m_size; i++) {
-        this->m_elems[i] = myVector.m_elems[i];
+        m_elems[i] = myVector.m_elems[i];
     }
 }
 template <typename T>

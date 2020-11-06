@@ -22,9 +22,9 @@ public:
     Set common(const Set& s);
     Set sum(const Set& s);
     int find(const T item);
-    int size(){return this->m_elems.size();}
-    void clear(){vector<T>().swap(this->m_elems);}
-    void swap(Set& s){this->m_elems.swap(s.m_elems);}
+    int size() { return m_elems.size(); }
+    void clear() { vector<T>().swap(this->m_elems); }
+    void swap(Set& s) { m_elems.swap(s.m_elems); }
     Set& operator = (const Set& s);
     Set(const Set& s);
     friend ostream& operator<< <T>(ostream& os, const Set<T>& s);
@@ -43,7 +43,7 @@ Set<T>::Set(const vector<T>& elem) {
 
 template <typename T>
 bool Set<T>::is_elem(T elem) {
-    for (int i = 0; m_elems.size(); i++) {
+    for (int i = 0; i < m_elems.size(); i++) {
         if (m_elems[i] == elem) return true;
     }
     return false;
@@ -56,7 +56,7 @@ void Set<T>::insert(T elem) {
 
 template <typename T>
 void Set<T>::erase(T elem) {
-    vector<T>::iterator itr = m_elems.begin();
+    typename vector<T>::iterator itr = m_elems.begin();
     while (itr != m_elems.end()) {
         if (*itr == elem) itr = m_elems.erase(itr);
         else itr++;
@@ -71,7 +71,7 @@ Set<T> Set<T>::common(const Set<T>& s) {     // Step1:sort Step2:catch redundanc
     for (int i = 0; i < this->m_elems.size(); i++) tempArr[i] = this->m_elems[i];
     for (int i = 0; i < s.m_elems.size(); i++) tempArr[i + this->m_elems.size()] = s.m_elems[i];
     this->selectionSort(tempArr);
-    vector<T>::iterator itr = tempArr.begin();
+    typename vector<T>::iterator itr = tempArr.begin();
     while (itr != tempArr.end() - 1) {
         if (*itr == *(itr + 1)) {
             catchArr.push_back(*itr);
@@ -88,7 +88,7 @@ Set<T> Set<T>::sum(const Set<T>& s) {     // Step1:sort Step2:eliminate redundan
     for (int i = 0; i < this->m_elems.size(); i++) tempArr[i] = this->m_elems[i];
     for (int i = 0; i < s.m_elems.size(); i++) tempArr[i + this->m_elems.size()] = s.m_elems[i];
     this->selectionSort(tempArr);
-    vector<T>::iterator itr = tempArr.begin();
+    typename vector<T>::iterator itr = tempArr.begin();
     while (itr != tempArr.end() - 1) {
         if (*itr == *(itr + 1)) itr = tempArr.erase(itr);
         else itr++;
@@ -98,8 +98,8 @@ Set<T> Set<T>::sum(const Set<T>& s) {     // Step1:sort Step2:eliminate redundan
 
 template <typename T>
 int Set<T>::find(const T item) {        // -1: No element
-    for(int i = 0; i < this->m_elems.size(); i++) {
-        if(this->m_elems[i] == item) return i;
+    for (int i = 0; i < this->m_elems.size(); i++) {
+        if (this->m_elems[i] == item) return i;
     }
     cout << "Element not found!" << endl;
     return -1;

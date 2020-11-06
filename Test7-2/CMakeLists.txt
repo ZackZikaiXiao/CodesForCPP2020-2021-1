@@ -3,4 +3,4 @@ project(Test7_2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Test7_2 main.cpp Set.h)
+add_executable(Test7_2 main.cpp Set.h Complex.h)
